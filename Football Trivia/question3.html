@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Football Trivia Website</title>
+</head>
+<body id="home-body">
+
+    <div id="question-container">
+
+        <div id="question-text">3. Which player holds the record for most goals in a single World Cup?</div>
+
+        <div id="answer-container">
+            <fieldset id="a" class="answer" onclick="checkAnswer(event, quiz.question3);">Miroslav Klose</fieldset>
+            <fieldset id="b" class="answer" onclick="checkAnswer(event, quiz.question3);">Ronaldo Nazario</fieldset>
+            <fieldset id="c" class="correct answer" onclick="checkAnswer(event, quiz.question3);">Just Fontaine</fieldset>
+            <fieldset id="d" class="answer" onclick="checkAnswer(event, quiz.question3);">Lionel Messi</fieldset>
+        </div>
+
+    </div>
+
+    <a href="question4.html" id="next-question" onclick="chosen = false;">Next Question</a>
+
+    <script src="app.js"></script>
+</body>
+</html>

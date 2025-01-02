@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Football Trivia Website</title>
+</head>
+<body id="home-body">
+
+    <div id="question-container">
+
+        <div id="question-text">4. Which club is known as "The Red Devils"?</div>
+
+        <div id="answer-container">
+            <fieldset id="a" class="answer" onclick="checkAnswer(event, quiz.question4);">Manchester City</fieldset>
+            <fieldset id="b" class="correct answer" onclick="checkAnswer(event, quiz.question4);">Manchester United</fieldset>
+            <fieldset id="c" class="answer" onclick="checkAnswer(event, quiz.question4);">Liverpool</fieldset>
+            <fieldset id="d" class="answer" onclick="checkAnswer(event, quiz.question4);">Arsenal</fieldset>
+        </div>
+
+    </div>
+
+    <a href="question5.html" id="next-question" onclick="chosen = false;">Next Question</a>
+
+    <script src="app.js"></script>
+</body>
+</html>

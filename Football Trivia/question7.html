@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Football Trivia Website</title>
+</head>
+<body id="home-body">
+
+    <div id="question-container">
+
+        <div id="question-text">7. Who is the all-time top scorer in the Premier League?</div>
+
+        <div id="answer-container">
+            <fieldset id="a" class="answer" onclick="checkAnswer(event, quiz.question7);">Sergio Aguero</fieldset>
+            <fieldset id="b" class="correct answer" onclick="checkAnswer(event, quiz.question7);">Alan Shearer</fieldset>
+            <fieldset id="c" class="answer" onclick="checkAnswer(event, quiz.question7);">Wayne Rooney</fieldset>
+            <fieldset id="d" class="answer" onclick="checkAnswer(event, quiz.question7);">Thierry Henry</fieldset>
+        </div>
+
+    </div>
+
+    <a href="question8.html" id="next-question" onclick="chosen = false;">Next Question</a>
+
+    <script src="app.js"></script>
+</body>
+</html>

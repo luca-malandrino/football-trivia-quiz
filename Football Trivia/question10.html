@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Football Trivia Website</title>
+</head>
+<body id="home-body">
+
+    <div id="question-container">
+
+        <div id="question-text">10. Which country won the most Copa América titles?</div>
+
+        <div id="answer-container">
+            <fieldset id="a" class="correct answer" onclick="checkAnswer(event, quiz.question10);">Argentina</fieldset>
+            <fieldset id="b" class="answer" onclick="checkAnswer(event, quiz.question10);">Brazil</fieldset>
+            <fieldset id="c" class="answer" onclick="checkAnswer(event, quiz.question10);">Uruguay</fieldset>
+            <fieldset id="d" class="answer" onclick="checkAnswer(event, quiz.question10);">Chile</fieldset>
+        </div>
+
+    </div>
+
+    <a href="results.html" id="next-question">See results</a>
+
+    <script src="app.js"></script>
+</body>
+</html>
